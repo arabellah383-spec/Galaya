@@ -228,3 +228,31 @@ span{
   text-align: center;
 }
 
+/*It.html*/
+
+.IT{
+    position: absolute  ;
+    text-align: center;
+    background-color: #00000000;
+    top: 15%;
+    margin-left: 100px;
+}
+
+.IT-img{
+     width: 50%;
+    border-radius: 0;
+}
+
+.IT-img img{
+    width: 50%;
+    height: 60vh; 
+    object-fit: cover; 
+    border-radius: 0;
+    box-shadow: none;
+    cursor: default;
+    transition: none;
+    display: block;
+
+}
+
+ 
