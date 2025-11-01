@@ -312,3 +312,26 @@ span{
     object-fit: cover;
 
 }
+
+/* IT */
+
+.section {
+    min-height: 100vh;
+    background-image: url("../assets/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: cover;
+
+}
+
+.IT .background-img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    opacity: 0.3;
+    object-fit: cover;
+    
+}
