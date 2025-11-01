@@ -1,3 +1,4 @@
+/* Home CSS */
 * {
     margin: 0;
     padding: 0;
@@ -11,13 +12,15 @@ html{
     font-size: 62.5%;
 }
 
-body{
+body {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     overflow-x: hidden;
     background-color: black;
     color: white;
+    padding-top: 75px;
 }
+
 
 header{
     
@@ -228,31 +231,84 @@ span{
   text-align: center;
 }
 
-/*It.html*/
+/* About CSS */
 
-.IT{
-    position: absolute  ;
+.about {
+  text-align: center;
+}
+
+
+.about h1 {
+
+    font-size: 6rem;
+    margin-bottom: 2rem;
     text-align: center;
-    background-color: #00000000;
-    top: 15%;
-    margin-left: 100px;
-}
-
-.IT-img{
-     width: 50%;
-    border-radius: 0;
-}
-
-.IT-img img{
-    width: 50%;
-    height: 60vh; 
-    object-fit: cover; 
-    border-radius: 0;
-    box-shadow: none;
-    cursor: default;
-    transition: none;
-    display: block;
+    color:#990f0f
 
 }
 
- 
+.about h2 {
+
+    font-size: 3rem;
+    margin-bottom: 0rem;
+    text-align: center;
+    margin-top: 5rem;
+
+}
+.about .content {
+
+    display: inline-block;
+    width: 80%;
+    margin: 0 auto 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    
+}
+
+.about .content .p {
+
+    font-size: 2.5rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    text-align: center;
+
+}
+
+.about h3 {
+    font-size: 3rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.about .developer-img {
+    position: relative;
+    width: 10vw;
+    border-radius: 100%;
+    box-shadow: 0 0 10rem solid #990f0f;
+    cursor: pointer;
+    transition: 0s linear;
+}
+
+.section {
+    min-height: 100vh;
+    background-image: url("../assets/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: cover;
+
+}
+
+.about .background-img {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    opacity: 0.3;
+    object-fit: cover;
+
+}
