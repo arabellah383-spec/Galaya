@@ -97,7 +97,7 @@ nav a.active{
     }
 }
 
-section{
+.home .section{
     min-height: 10vh;
     padding: 5rem 9% 5rem;
 }
@@ -241,7 +241,6 @@ span{
 .about h1 {
 
     font-size: 6rem;
-    margin-bottom: 2rem;
     text-align: center;
     color:teal;
 
@@ -250,17 +249,24 @@ span{
 .about h2 {
 
     font-size: 3rem;
-    margin-bottom: 0rem;
     text-align: center;
     margin-top: 5rem;
+    margin-bottom: 3rem;
 
 }
+
+.about .section {
+
+  margin: 2%;
+  align-items: center;
+
+}
+
 .about .content {
 
     display: inline-block;
     width: 80%;
-    margin: 0 auto 20px;
-    padding-bottom: 10px;
+    margin: 20px;
     margin-bottom: 20px;
     border-bottom: 1px solid #ccc;
     text-align: center;
@@ -271,8 +277,8 @@ span{
 
     font-size: 2.5rem;
     line-height: 1.6;
-    margin-bottom: 1.5rem;
-    text-align: center;
+    text-align: justify;
+    margin-bottom: 2%;
 
 }
 
@@ -290,7 +296,6 @@ span{
 
 }
 
-<<<<<<< HEAD
 .about .devs {
 
     font-size: 5rem;
@@ -309,8 +314,8 @@ span{
 
 .about .developers-img {
 
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 600px;
     border-radius: 50%;
     display: block;
     margin-top: 5%;
@@ -324,80 +329,106 @@ span{
 
 }
 
-
 /* Contact CSS */
 
 .contact {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    position: relative;
-    z-index: 1;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
 
 }
 
 .contact-form {
-    width: 80%;
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color:#fff;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  
+  width: 100%;
+  max-width: 650px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #161616;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
 }
 
-.contact h1 {
-    font-size: 4rem;
+.contact-form h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #333  ;
+    color: teal;
+    font-size: 5rem;
 }
 
 form input,
 form textarea {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #f7f7f7;
-    color: #333;
+  display: block;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 15px;
+  border: 3px solid teal;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  color: #333;
 }
 
 form input:focus,
 form textarea:focus {
-    outline: none;
-    box-shadow: 0 0 5px #333;
+  outline: none;
+  box-shadow: 0 0 5px #333;
+}
+
+.contact-form .name {
+  font-size: 2rem;
+}
+
+.contact-form .email {
+  font-size: 2rem;
+}
+
+.contact-form .textarea {
+  font-size: 2rem;
+  resize: vertical;
+  min-height: 150px;
 }
 
 form button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #00008B;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s ease;
-
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #1434A4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-size: large;
 }
 
 form button:hover {
-    background-color: #6495ED;
-    color: white
+  background-color: #6495ED;
+  color: black;
+  font-size: large;
 }
 
-.contact .background-img {
-    
-=======
+.background-img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    opacity: 0.3;
+    object-fit: cover;
+    filter: blur(3px);
+
+}
+
+
 /* IT */
 
-.section {
+.IT .section {
     min-height: 100vh;
     background-image: url("../assets/background.jpg");
     background-position: center;
@@ -407,7 +438,6 @@ form button:hover {
 }
 
 .IT .background-img {
->>>>>>> 77bc11332af5371a354c48d15545b310c9764235
     top: 0;
     left: 0;
     width: 100%;
@@ -416,16 +446,11 @@ form button:hover {
     position: fixed;
     opacity: 0.3;
     object-fit: cover;
-<<<<<<< HEAD
-    filter: blur(3px);
-
-}
-=======
     
 }
 
 .It-img {
-    width: 400px;
+  width: 400px;
   height: 400px;
   object-fit: cover;
 }
@@ -522,7 +547,7 @@ form button:hover {
 
 /* spiderman */
 
-.section {
+.spiderman .section {
     min-height: 100vh;
     background-image: url("../assets/background.jpg");
     background-position: center;
@@ -608,7 +633,7 @@ form button:hover {
 .trailer-video {
   object-fit: fill;
   border-radius: 10px;
-  border: 3px solid #ffffff00;s
+  border: 3px solid #ffffff00;
 }
 
 
@@ -638,7 +663,7 @@ form button:hover {
 
 /*wednesday*/
 
-.section {
+.wednesday .section {
     min-height: 100vh;
     background-image: url("../assets/background.jpg");
     background-position: center;
@@ -724,7 +749,7 @@ form button:hover {
 .trailer-video {
   object-fit: fill;
   border-radius: 10px;
-  border: 3px solid #ffffff00;s
+  border: 3px solid #ffffff00;
 }
 
 
@@ -754,7 +779,7 @@ form button:hover {
 
 /*spirited away*/
 
-.section {
+.spiritedaway .section {
     min-height: 100vh;
     background-image: url("../assets/background.jpg");
     background-position: center;
@@ -840,7 +865,7 @@ form button:hover {
 .trailer-video {
   object-fit: fill;
   border-radius: 10px;
-  border: 3px solid #ffffff00;s
+  border: 3px solid #ffffff00;
 }
 
 
@@ -870,7 +895,7 @@ form button:hover {
 
 /*me before you*/
 
-.section {
+.mebeforeyou .section {
     min-height: 100vh;
     background-image: url("../assets/background.jpg");
     background-position: center;
@@ -956,7 +981,7 @@ form button:hover {
 .trailer-video {
   object-fit: fill;
   border-radius: 10px;
-  border: 3px solid #ffffff00;s
+  border: 3px solid #ffffff00;
 }
 
 
@@ -986,7 +1011,7 @@ form button:hover {
 
 /* the ugly stepsisters*/
 
-.section {
+.ugly .section {
     min-height: 100vh;
     background-image: url("../assets/background.jpg");
     background-position: center;
@@ -1072,7 +1097,7 @@ form button:hover {
 .trailer-video {
   object-fit: fill;
   border-radius: 10px;
-  border: 3px solid #ffffff00;s
+  border: 3px solid #ffffff00;
 }
 
 
@@ -1102,7 +1127,7 @@ form button:hover {
 
 /*wicked*/
 
-.section {
+.wicked .section {
     min-height: 100vh;
     background-image: url("../assets/background.jpg");
     background-position: center;
@@ -1189,7 +1214,7 @@ form button:hover {
 .trailer-video {
   object-fit: fill;
   border-radius: 10px;
-  border: 3px solid #ffffff00;s
+  border: 3px solid #ffffff00;
 }
 
 
@@ -1216,12 +1241,3 @@ form button:hover {
 .movie-review p {
     text-align: justify;
 }
-
-
-
-
-
-
-
-
->>>>>>> 77bc11332af5371a354c48d15545b310c9764235
