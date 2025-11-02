@@ -335,3 +335,804 @@ span{
     object-fit: cover;
     
 }
+
+.It-img {
+    width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.IT-content h1 {
+    font-size: 10rem;
+    font-family: Garamond;
+
+}
+
+.movie-info {
+    font-size: 2.7rem;
+}
+
+.score-number {
+  font-size: 3rem;
+  font-weight: bold;
+  color: gold;
+}
+
+.total {
+  font-size: 3rem;
+  color: white;
+  opacity: 0.8;
+}
+
+.score-star {
+  font-size: 2.9rem;
+  color: gold;
+}
+
+.movie-cast {
+  margin-top: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 2.8rem;
+  line-height: 1.6;
+  color: white;
+}
+
+.movie-cast strong {
+  font-size: 1.6rem;
+  color: #b30000; 
+}
+
+.movie-cast em {
+  font-style: italic;
+  color: #ffcccc;
+}
+.movie-description {
+    margin-top: 6rem;
+    font-size: 3rem;
+}
+
+.video-container {
+   display: block;
+  margin: 20px auto;
+  width: 800px;
+  height: 600px;
+}
+
+.trailer-video {
+  object-fit: fill;
+  border-radius: 10px;
+  border: 3px solid #ffffff00;
+}
+
+.movie-review {
+    background-color: #161616;
+}
+
+.movie-review {
+  
+  margin: 10px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 10px;
+  backdrop-filter: blur(4px); 
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.movie-review h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: rgb(211, 0, 0);
+  align-items: center;
+  text-align: center;
+}
+
+.movie-review p {
+    text-align: justify;
+}
+
+
+/* spiderman */
+
+.section {
+    min-height: 100vh;
+    background-image: url("../assets/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: cover;
+
+}
+
+.spiderman .background-img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    opacity: 0.3;
+    object-fit: cover;
+    
+}
+
+.spiderman-img {
+    width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.spiderman-content h1 {
+    font-size: 5rem;
+    font-family: Garamond;
+
+}
+
+.spiderman-movie-info {
+    font-size: 2.7rem;
+}
+
+.score-number {
+  font-size: 3rem;
+  font-weight: bold;
+  color: gold;
+}
+
+.total {
+  font-size: 3rem;
+  color: white;
+  opacity: 0.8;
+}
+
+.score-star {
+  font-size: 2.9rem;
+  color: gold;
+}
+
+.spider-movie-cast {
+  margin-top: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 2.8rem;
+  line-height: 1.6;
+  color: white;
+}
+
+.movie-cast strong {
+  font-size: 1.6rem;
+  color: #b30000; 
+}
+
+.movie-cast em {
+  font-style: italic;
+  color: #ffcccc;
+}
+.spider-movie-description {
+    margin-top: 6rem;
+    font-size: 3rem;
+}
+
+.spider-video-container {
+   display: block;
+  margin: 20px auto;
+  width: 800px;
+  height: 600px;
+}
+
+.trailer-video {
+  object-fit: fill;
+  border-radius: 10px;
+  border: 3px solid #ffffff00;s
+}
+
+
+.spider-movie-review {
+
+  margin: 10px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 10px;
+  backdrop-filter: blur(4px); 
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  
+}
+
+.movie-review h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: rgb(211, 0, 0);
+  align-items: center;
+  text-align: center;
+}
+
+.movie-review p {
+    text-align: justify;
+}
+
+/*wednesday*/
+
+.section {
+    min-height: 100vh;
+    background-image: url("../assets/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: cover;
+
+}
+
+.wednesday .background-img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    opacity: 0.3;
+    object-fit: cover;
+    
+}
+
+.wednesday-img {
+    width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.wednesday-content h1 {
+    font-size: 5rem;
+    font-family: Garamond;
+
+}
+
+.movie-info {
+    font-size: 2.7rem;
+}
+
+.score-number {
+  font-size: 3rem;
+  font-weight: bold;
+  color: gold;
+}
+
+.total {
+  font-size: 3rem;
+  color: white;
+  opacity: 0.8;
+}
+
+.score-star {
+  font-size: 2.9rem;
+  color: gold;
+}
+
+.movie-cast {
+  margin-top: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 2.8rem;
+  line-height: 1.6;
+  color: white;
+}
+
+.movie-cast strong {
+  font-size: 1.6rem;
+  color: #b30000; 
+}
+
+.movie-cast em {
+  font-style: italic;
+  color: #ffcccc;
+}
+.movie-description {
+    margin-top: 6rem;
+    font-size: 3rem;
+}
+
+.video-container {
+   display: block;
+  margin: 20px auto;
+  width: 800px;
+  height: 600px;
+}
+
+.trailer-video {
+  object-fit: fill;
+  border-radius: 10px;
+  border: 3px solid #ffffff00;s
+}
+
+
+.movie-review {
+
+  margin: 10px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 10px;
+  backdrop-filter: blur(4px); 
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  
+}
+
+.movie-review h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: rgb(211, 0, 0);
+  align-items: center;
+  text-align: center;
+}
+
+.movie-review p {
+    text-align: justify;
+}
+
+/*spirited away*/
+
+.section {
+    min-height: 100vh;
+    background-image: url("../assets/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: cover;
+
+}
+
+.spiritedaway .background-img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    opacity: 0.3;
+    object-fit: cover;
+    
+}
+
+.spiritedaway-img {
+    width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.spiritedaway-content h1 {
+    font-size: 5rem;
+    font-family: Garamond;
+
+}
+
+.movie-info {
+    font-size: 2.7rem;
+}
+
+.score-number {
+  font-size: 3rem;
+  font-weight: bold;
+  color: gold;
+}
+
+.total {
+  font-size: 3rem;
+  color: white;
+  opacity: 0.8;
+}
+
+.score-star {
+  font-size: 2.9rem;
+  color: gold;
+}
+
+.movie-cast {
+  margin-top: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 2.8rem;
+  line-height: 1.6;
+  color: white;
+}
+
+.movie-cast strong {
+  font-size: 1.6rem;
+  color: #b30000; 
+}
+
+.movie-cast em {
+  font-style: italic;
+  color: #ffcccc;
+}
+.movie-description {
+    margin-top: 6rem;
+    font-size: 3rem;
+}
+
+.video-container {
+   display: block;
+  margin: 20px auto;
+  width: 800px;
+  height: 600px;
+}
+
+.trailer-video {
+  object-fit: fill;
+  border-radius: 10px;
+  border: 3px solid #ffffff00;s
+}
+
+
+.movie-review {
+
+  margin: 10px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 10px;
+  backdrop-filter: blur(4px); 
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  
+}
+
+.movie-review h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: rgb(211, 0, 0);
+  align-items: center;
+  text-align: center;
+}
+
+.movie-review p {
+    text-align: justify;
+}
+
+/*me before you*/
+
+.section {
+    min-height: 100vh;
+    background-image: url("../assets/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: cover;
+
+}
+
+.me .background-img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    opacity: 0.3;
+    object-fit: cover;
+    
+}
+
+.me-img {
+    width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.me-content h1 {
+    font-size: 5rem;
+    font-family: Garamond;
+
+}
+
+.movie-info {
+    font-size: 2.7rem;
+}
+
+.score-number {
+  font-size: 3rem;
+  font-weight: bold;
+  color: gold;
+}
+
+.total {
+  font-size: 3rem;
+  color: white;
+  opacity: 0.8;
+}
+
+.score-star {
+  font-size: 2.9rem;
+  color: gold;
+}
+
+.movie-cast {
+  margin-top: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 2.8rem;
+  line-height: 1.6;
+  color: white;
+}
+
+.movie-cast strong {
+  font-size: 1.6rem;
+  color: #b30000; 
+}
+
+.movie-cast em {
+  font-style: italic;
+  color: #ffcccc;
+}
+.movie-description {
+    margin-top: 6rem;
+    font-size: 3rem;
+}
+
+.video-container {
+   display: block;
+  margin: 20px auto;
+  width: 800px;
+  height: 600px;
+}
+
+.trailer-video {
+  object-fit: fill;
+  border-radius: 10px;
+  border: 3px solid #ffffff00;s
+}
+
+
+.movie-review {
+
+  margin: 10px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 10px;
+  backdrop-filter: blur(4px); 
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  
+}
+
+.movie-review h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: rgb(239, 217, 152);
+  align-items: center;
+  text-align: center;
+}
+
+.movie-review p {
+    text-align: justify;
+}
+
+/* the ugly stepsisters*/
+
+.section {
+    min-height: 100vh;
+    background-image: url("../assets/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: cover;
+
+}
+
+.step .background-img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    opacity: 0.3;
+    object-fit: cover;
+    
+}
+
+.step-img {
+    width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.step-content h1 {
+    font-size: 5rem;
+    font-family: Garamond;
+
+}
+
+.movie-info {
+    font-size: 2.7rem;
+}
+
+.score-number {
+  font-size: 3rem;
+  font-weight: bold;
+  color: gold;
+}
+
+.total {
+  font-size: 3rem;
+  color: white;
+  opacity: 0.8;
+}
+
+.score-star {
+  font-size: 2.9rem;
+  color: gold;
+}
+
+.movie-cast {
+  margin-top: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 2.8rem;
+  line-height: 1.6;
+  color: white;
+}
+
+.movie-cast strong {
+  font-size: 1.6rem;
+  color: #b30000; 
+}
+
+.movie-cast em {
+  font-style: italic;
+  color: #ffcccc;
+}
+.movie-description {
+    margin-top: 6rem;
+    font-size: 3rem;
+}
+
+.video-container {
+   display: block;
+  margin: 20px auto;
+  width: 800px;
+  height: 600px;
+}
+
+.trailer-video {
+  object-fit: fill;
+  border-radius: 10px;
+  border: 3px solid #ffffff00;s
+}
+
+
+.movie-review {
+
+  margin: 10px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 10px;
+  backdrop-filter: blur(4px); 
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  
+}
+
+.movie-review h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: rgb(247, 139, 227);
+  align-items: center;
+  text-align: center;
+}
+
+.movie-review p {
+    text-align: justify;
+}
+
+/*wicked*/
+
+.section {
+    min-height: 100vh;
+    background-image: url("../assets/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;  
+    background-size: cover;
+
+}
+
+.wicked .background-img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    opacity: 0.3;
+    object-fit: cover;
+    
+}
+
+.wicked-img {
+    width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.wicked-content h1 {
+    font-size: 5rem;
+    font-family: Garamond;
+    color: rgb(23, 74, 23);
+
+}
+
+.movie-info {
+    font-size: 2.7rem;
+}
+
+.score-number {
+  font-size: 3rem;
+  font-weight: bold;
+  color: gold;
+}
+
+.total {
+  font-size: 3rem;
+  color: white;
+  opacity: 0.8;
+}
+
+.score-star {
+  font-size: 2.9rem;
+  color: gold;
+}
+
+.movie-cast {
+  margin-top: 15px;
+  font-family: Arial, sans-serif;
+  font-size: 2.8rem;
+  line-height: 1.6;
+  color: white;
+}
+
+.movie-cast strong {
+  font-size: 1.6rem;
+  color: #b30000; 
+}
+
+.movie-cast em {
+  font-style: italic;
+  color: #ffcccc;
+}
+.movie-description {
+    margin-top: 6rem;
+    font-size: 3rem;
+}
+
+.video-container {
+   display: block;
+  margin: 20px auto;
+  width: 800px;
+  height: 600px;
+}
+
+.trailer-video {
+  object-fit: fill;
+  border-radius: 10px;
+  border: 3px solid #ffffff00;s
+}
+
+
+.movie-review {
+
+  margin: 10px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 10px;
+  backdrop-filter: blur(4px); 
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  
+}
+
+.movie-review h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: rgb(247, 139, 227);
+  align-items: center;
+  text-align: center;
+}
+
+.movie-review p {
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
